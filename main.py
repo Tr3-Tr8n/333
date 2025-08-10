@@ -21,7 +21,7 @@ friends = {
     }
 }
 
-=
+
 st.sidebar.header("Chọn một người bạn")
 selected_friend = st.sidebar.selectbox("Danh sách bạn:", list(friends.keys()))
 
